@@ -1,1 +1,11 @@
 my_workflow.yml
+
+name: My First Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
